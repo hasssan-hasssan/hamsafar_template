@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Samim";
+    src: url('../fonts/Samim/Samim.eot');
+    src: url('../fonts/Samim/Samim.eot?#iefix') format('Samim-opentype'), url('../fonts/Samim/Samim.woff') format('woff'), url('../fonts/Samim/Samim.ttf') format('truetype');
+    font-weight: light;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Samim';
+    height: 1000px;
+}
+
+:root {
+    --pink: #e8505b;
+    --yellow: #f9d56e;
+    --lightcream: #f3ecc2;
+    --cyan: #14b1ab;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+}
+
+.text-good-primary {
+    color: #00658D;
+}
+
+.opacity-hover:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    width: 120px;
+}
